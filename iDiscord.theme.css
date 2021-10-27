@@ -1,0 +1,148 @@
+/**
+ * @name iDiscord
+ * @author Apple
+ * @description 
+ * @version 11
+ */
+
+/** This theme works in both light mode and dark mode. **/
+
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('http://fonts.cdnfonts.com/css/sf-mono');
+
+.base-1x0h_U, .nickname-3M3Jfa, .fontDisplay-1dagSA, .botText-1526X_  {
+    font-weight: 900;
+    font-family: 'SF Pro Display';
+    letter-spacing: 0.02em;
+}
+
+.role-2irmRk {
+    border-radius: 6px;
+}
+
+::placeholder {
+    letter-spacing: 0.02em;
+}
+
+.customStatusText-1vtUsN {
+    letter-spacing: 0.02em;
+}
+
+.userPopout-xaxa6l {
+    border-radius: 14px;
+}
+
+.discrimBase-24vY8o {
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    font-family: 'SF Pro Display';
+}
+
+.username-2b1r56, .headerTagUsernameBase-1NqrY5{
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    font-family: 'SF Pro Display';
+}
+
+
+.usernameFont-23TX-h {
+    font-weight: bold;
+}
+
+.centerButton-3CaNcJ {
+    border-radius: 50%;
+}
+
+.embed-IeVjo6, .input-cIJ7To {
+    border-radius: 8px;
+}
+
+.aboutMeSection-1Fw5Ia .aboutMeBody-3GuvKk {
+    letter-spacing: 0.02em;
+}
+
+.markup-2BOw-j code.inline {
+    font-family: 'SF Mono';
+}
+.header-2RyJ0Y {
+    font-weight: 900;
+    font-family: inherit;
+}
+
+.name-1jkAdW, .tierTooltipTitle-3AtaZT {
+    font-weight: 900;
+    font-family: 'SF Pro Display';
+    letter-spacing: 0.02em;
+}
+
+a, button, div, input, label, select, span, strong, textarea {
+    font-weight: bold;
+}
+
+.side-8zPYf6 .item-PXvHYJ {
+    font-weight: bold;
+}
+
+#bd-pub-button, #bd-pub-li {
+    display: none;
+}
+
+.channelTextArea-2VhZ6z {
+    font-weight: normal;
+}
+
+.menu-3sdvDG {
+    border-radius: 12px;
+}
+
+.button-38aScr, .swatch-3mFIiP, .item-1tOPte{
+    border-radius: 8px;
+}
+
+::placeholder, body, button, input, select, textarea {
+    font-family: 'SF Pro Display';
+}
+#app-mount .app-2rEoOp {
+  background-color: transparent;
+  font-family: 'SF Pro Display';
+  letter-spacing: 0.02em;
+}
+.theme-dark .wrapper-2TxpI8 {
+    background-color: transparent;
+}
+
+.membersGroup-v9BXpm {
+    text-align: center;
+    border-radius: 17px;
+    background-color: #18191c4d;
+    padding: 8px 0;
+    margin-top: 5px;
+    height: 1.8%;
+}
+
+.username-1A8OIy {
+    font-weight: bold;
+}
+
+.video-8eMOth {
+    border-radius: 17px;
+}
+
+.embedImage-2W1cML img, .embedImage-2W1cML video, .embedThumbnail-2Y84-K img, .embedThumbnail-2Y84-K video, .embedVideo-3nf0O9 img, .embedVideo-3nf0O9 video, .imageWrapper-2p5ogY img {
+    border-radius: 17px;
+}
+
+.theme-dark .wrapper-3WhCwL {
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.content-1x5b-n {
+    border-radius: 12px;
+    
+}
+
+.content-1x5b-n:hover {
+    -webkit-transition:background-color .17s ease,color .17s ease;
+    transition:background-color .17s ease,color .17s ease;
+}
