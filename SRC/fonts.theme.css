@@ -1,9 +1,8 @@
 /**
  * @name iDiscord
- * @author Scxnt
- * @website https://github.com/808scxnt
- * @description If Apple made discord.
- * @version 69
+ * @author Apple
+ * @description 
+ * @version 11
  */
 
 /** This theme works in both light mode and dark mode. **/
@@ -11,10 +10,31 @@
 @import url('http://fonts.cdnfonts.com/css/sf-pro-display');
 @import url('http://fonts.cdnfonts.com/css/sf-mono');
 
-.base-1x0h_U, .nickname-3M3Jfa, .fontDisplay-1dagSA, .botText-1526X_  {
+markup-2BOw-j slateTextArea-1Mkdgw fontSize16Padding-3Wk7zP {
+    font-weight: normal;
+}
+
+.uploadModal-2ifh8j {
+    border-radius: 14px;
+}
+
+::selection {
+    background-color: #5865F2;
+    color: white;
+}
+
+.base-1x0h_U, .nickname-3M3Jfa, .fontDisplay-1dagSA, .botText-1526X_ {
     font-weight: 900;
     font-family: 'SF Pro Display';
     letter-spacing: 0.02em;
+}
+
+.side-8zPYf6 .item-PXvHYJ {
+    border-radius: 8px;
+}
+
+.accountProfileCard-1XCH88, .radioBar-bMNUI-, .scrollableContainer-2NUZem {
+    border-radius: 16px;
 }
 
 .role-2irmRk {
@@ -33,13 +53,13 @@
     border-radius: 14px;
 }
 
-.discrimBase-24vY8o {
+.discrimBase-24vY8o, .title-31JmR4 {
     font-weight: bold;
     letter-spacing: 0.02em;
     font-family: 'SF Pro Display';
 }
 
-.username-2b1r56, .headerTagUsernameBase-1NqrY5{
+.username-2b1r56, .headerTagUsernameBase-1NqrY5, .title-3BE6m5{
     font-weight: 900;
     letter-spacing: 0.04em;
     font-family: 'SF Pro Display';
@@ -65,7 +85,7 @@
 .markup-2BOw-j code.inline {
     font-family: 'SF Mono';
 }
-.header-2RyJ0Y {
+.header-2RyJ0Y, .h5-18_1nd {
     font-weight: 900;
     font-family: inherit;
 }
@@ -76,7 +96,7 @@
     letter-spacing: 0.02em;
 }
 
-a, button, div, input, label, select, span, strong, textarea {
+.channelName-2YrOjO, .subtitle-3V1p2E, .roleColor-rz2vM0, .placeholder-37qJjk, .channelNam-2YrOjO, .subtitle-3V1p2E, .label-22pbtT, a, button, strong  {
     font-weight: bold;
 }
 
@@ -96,7 +116,7 @@ a, button, div, input, label, select, span, strong, textarea {
     border-radius: 12px;
 }
 
-.button-38aScr, .swatch-3mFIiP, .item-1tOPte{
+.button-38aScr, .swatch-3mFIiP, .item-1tOPte, .gameIcon-gg34Dz{
     border-radius: 8px;
 }
 
@@ -104,25 +124,46 @@ a, button, div, input, label, select, span, strong, textarea {
     font-family: 'SF Pro Display';
 }
 #app-mount .app-2rEoOp {
-  background-color: transparent;
   font-family: 'SF Pro Display';
   letter-spacing: 0.02em;
+  background-size: cover;
+  background-image: url(https://wallpaperaccess.com/full/3097725.jpg);
 }
-.theme-dark .wrapper-2TxpI8 {
-    background-color: transparent;
+
+.content-2M3n_H a {
+    font-weight: bold;
+}
+
+
+
+.theme-dark .quickMessage-1yeL4E {
+  background-color: rgba(69, 69, 69, .5);
+  border: none;
+  color: white;
+}
+
+html {
+  background-color: transparent;
 }
 
 .membersGroup-v9BXpm {
-    text-align: center;
-    border-radius: 17px;
-    background-color: #18191c4d;
-    padding: 8px 0;
-    margin-top: 5px;
-    height: 1.8%;
+  color: lightgray;
+  padding: 8px 0;
+  height: 30px;
+  font-size: small;
+  text-align: center;
+  background-color: rgb(69, 69, 69, .5);
+  border-radius: 8px;
+  font-family: inherit;
+  font-weight: bold;
 }
 
 .username-1A8OIy {
     font-weight: bold;
+}
+
+.item-26Dhrx, .card-3Qj_Yx {
+    border-radius: 12px;
 }
 
 .video-8eMOth {
@@ -144,6 +185,9 @@ a, button, div, input, label, select, span, strong, textarea {
 }
 
 .content-1x5b-n:hover {
-    -webkit-transition:background-color .17s ease,color .17s ease;
-    transition:background-color .17s ease,color .17s ease;
+   transition: background-color 0.2s linear; /* vendorless fallback */
+  -o-transition: background-color 0.2s linear; /* opera */
+  -ms-transition: background-color 0.2s linear; /* IE 10 */
+  -moz-transition: background-color 0.2s linear; /* Firefox */
+  -webkit-transition: background-color 0.2s linear; /*safari and chrome */
 }
